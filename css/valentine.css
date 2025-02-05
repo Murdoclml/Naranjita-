@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier";
+  background-color: #181717;
+  color: #ebc804;
+}
+
+img {
+  height: 400px;
+  width: auto;
+  padding: 10px;
+}
+
+#valentineQuestion {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.answerButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 20px;
+  background-color: #ebc804;
+  color: #ffffff;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1px 2px #ebc804;
+  transition: 0.3s;
+}
+
+.answerButton:hover {
+  background-color: #ebc804;
+  color: #050505;
+  border: 2px solid #ebc804;
+  box-shadow: 1px 1px 2px #ffe3e1;
+}
